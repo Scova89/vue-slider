@@ -60,10 +60,10 @@
             <!-- contenitore immagini laterale piccolo -->
             <div class="slider-side">
                 <div class="sidebox-container">
-                    <div class="box">
-                        <img src="img/01.jpg" alt="side1">
+                    <div class="box" v-for="img in images">
+                        <img :src="images" alt="side1">
                     </div>
-                    <div class="box">
+                    <!-- <div class="box">
                         <img src="img/02.jpg" alt="side2">
                     </div>
                     <div class="box">
@@ -74,7 +74,7 @@
                     </div>
                     <div class="box">
                         <img src="img/05.jpg" alt="side5">
-                    </div>
+                    </div> -->
                 </div>
                 
     
@@ -90,7 +90,7 @@
             </div>
             <!-- /contenitore immagini laterale piccolo -->
         </div>
-        
+
     </div>
 
     

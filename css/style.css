@@ -14,9 +14,7 @@ body{
 
 .container{
     display: flex;
-    height: 70vh;
-    width: 70%;
-    
+    height: 70vh;  
 }
 
 
