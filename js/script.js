@@ -25,8 +25,11 @@ const app = new Vue({
                 this.currentImg = this.images.length - 1;
             }else{
                 this.currentImg--;
-            }
-            
+            } 
+        },
+
+        selectImg: function(index){
+            this.currentImg = index;
         }
     }
 })

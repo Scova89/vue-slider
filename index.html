@@ -60,7 +60,7 @@
             <!-- contenitore immagini laterale piccolo -->
             <div class="slider-side">
                 <div class="sidebox-container">
-                    <div class="box" v-for="(img, index) in images" :class="index == currentImg ? 'active' : '' ">
+                    <div class="box" v-for="(img, index) in images" :class="index == currentImg ? 'active' : '' " @click="selectImg(index)">
                         <img :src="img" alt="side1">
                     </div>
                     <!-- <div class="box">
