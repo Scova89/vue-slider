@@ -7,9 +7,16 @@ const app = new Vue({
             "img/03.jpg",
             "img/04.jpg",
             "img/05.jpg"
-        ]
+        ],
+
+        currentImg: 0,
     },
     methods: {
-
+        nextImg: function(){
+            this.currentImg++;
+        },
+        beforeImg: function(){
+            this.currentImg--;
+        }
     }
 })
