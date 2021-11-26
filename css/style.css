@@ -12,6 +12,10 @@ body{
     height: 100vh;
 }
 
+#root{
+    width: 70%;
+}
+
 .container{
     display: flex;
     height: 70vh;  
@@ -36,15 +40,15 @@ body{
 
 .main-box{
     position: relative;
-    display: none;
+    /* display: none; */
     height: 100%;
     width: 100%;
 }
 
 
-.main-box.active{
+/* .main-box.active{
     display: block;
-}
+} */
 
 
 
