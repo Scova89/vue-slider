@@ -17,11 +17,11 @@
             <!-- contenitore immagini grande -->
             <div class="slider-main">
                 <div class="main-box">
-                    <img :src="images[currentImg]" alt="slider">
-                    <!-- <div class="testo">
-                        <h2>Svezia</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam, cumque provident totam omnis, magnam dolores dolorum corporis.</p>
-                    </div> -->
+                    <img :src="images[currentImg].img"  alt="slider">
+                    <div class="testo">
+                        <h2 :src="images[currentImg].titolo"></h2>
+                        <p :src="images[currentImg].testo"></p>
+                    </div>
                     
                 </div>
                 <!-- <div class="main-box">
